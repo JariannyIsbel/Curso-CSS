@@ -1,0 +1,66 @@
+/* 
+Selector universal - *
+Selector de etiqueta - (Etiqueta de HTML)
+Selector de clase - <(Atributo de HTML)
+Selector de ID - (Atributo de HTML)
+Selector por atributo - (atributo de HTML)
+Pseudo clases - :
+Pseudo elementos - ::
+
+
+*{
+    background-color: yellow;
+    margin-left: 40px;
+}
+
+.titulo2{
+    background-color: #fff ;
+}
+
+.titulo2:hover{
+    background-color: black;
+}
+
+.titulo2::first-line{
+color:blue;
+}
+
+
+.titulo{
+    color: #900; 
+}
+
+[fuego=aaa] {
+    color: #f00;
+}
+
+[href] {
+    font-size: 40px;
+} 
+ */
+
+
+ /* La especificidad es la jerarquia en CSS
+ __________________________________
+ 1 - !important
+ __________________________________
+ 2 - Estilos en línea
+ __________________________________
+ 3 - IDs
+ __________________________________
+ 4 - Clases
+     Pseudo-clases
+     Atributos
+ __________________________________
+ __________________________________
+
+ */
+
+
+ #parrafo1{
+    color: red;
+ }
+
+ .prueba{
+    color:blue !important;
+ }
