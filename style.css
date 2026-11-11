@@ -52,15 +52,32 @@ color:blue;
      Pseudo-clases
      Atributos
  __________________________________
+5- elementos
+pseudo-elementos (::)
+ __________________________________
+ 6- *
  __________________________________
 
- */
+ *{
+    color: #f0f;
+ }
 
-
- #parrafo1{
+ #parrafo1 {
     color: red;
  }
 
  .prueba{
-    color:blue !important;
- }
+    color:blue;
+    background-color: #f00;
+ } 
+   /* 
+   Metodología BEM (Block, element, modifier)
+
+   - Todo son clases.
+   */
+
+.noticia__titulo--red{
+    color: red;
+   }
+
+   
