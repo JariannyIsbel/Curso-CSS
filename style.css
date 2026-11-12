@@ -74,10 +74,35 @@ pseudo-elementos (::)
    Metodología BEM (Block, element, modifier)
 
    - Todo son clases.
-   */
+   
 
 .noticia__titulo--red{
     color: #f00;
    }
+    */
 
+   /* Box Model
+
+   Content - Padding - Border - Margin
+
+              Top
+
+    Left               right     
+    
+             Bottom
+    */
+   
+*{ 
+    box-sizing: border-box;
+}
+
+   .cubos{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px;
+    border: 5px solid #ff0;
+    margin-left: 50px;
+    margin: 60px 40px 10px 5px;  
+} 
    
